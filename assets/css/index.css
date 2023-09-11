@@ -24,33 +24,40 @@ a {
    --color-black: #292b2c;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     color: var(--color-black);
-    font-size: 16px;
-}
-/* style commonon or :default css */
-
-/* 1. Style layout */
-header {
-    margin: 10px 0;
+    font-size: 1.6rem;
 }
 .container {
     max-width: 1200px;
     margin: 0 auto;
     border: 1px dashed red;
-    padding: 0 12px;
+    padding: 0 1.2rem;
+}
+/* style commonon or :default css */
+
+
+
+/* ======= Start Header ======== */
+/* 1. Style layout */
+header {
+    margin: 10px 0;
 }
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.right_menu {
+.right-menu {
     display: flex;
     align-items: center;
 }
-ul.pages_link {
+ul.pages-link {
     display: flex;
 }
 ul.search {
@@ -72,19 +79,19 @@ ul.search {
 /* 2. style chi tiết hình ảnh */
 
 /* 3. Style chi tiết pages link */
-.pages_link li a {
+.pages-link li a {
     display: inline-block;
     color: var(--color-black);
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 500;
     padding: 12px 10px;
     text-transform: uppercase;
     transition: all .5s;
 }
-.pages_link li a:hover {
+.pages-link li a:hover {
     color: var(--color-red);
 }
-.pages_link li a.active {
+.pages-link li a.active {
     color: var(--color-red);
 }
 /* 3. Style chi tiết pages link */
@@ -99,6 +106,7 @@ ul.search {
     color: var(--color-red);
 }
 /* 4. Style chi tiết search */
+/* ======= End Header ======== */
 
 
 
