@@ -166,5 +166,15 @@ ul.search {
 
 /* ======= End Banner ======== */
 
-
-
+/* ======= Start Products ======== */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-item {
+    width: 25%;
+}
+.product-item img {
+    max-width: 100%;
+}
+/* ======= End Products ======== */
