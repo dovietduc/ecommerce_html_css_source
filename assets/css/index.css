@@ -178,8 +178,12 @@ ul.search {
     margin-bottom: 30px;
     box-shadow: 1px 1px 7px rgb(0, 0, 0, 0.1);
 }
+.product-image a {
+    display: block;
+}
 .product-item img {
     max-width: 100%;
+    display: block;
 }
 .product-full h2 {
     font-size: 32px;
@@ -226,5 +230,4 @@ ul.search {
     color: var(--color-grey);
     font-size: 14px;
 }
-
 /* ======= End Products ======== */
